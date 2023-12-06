@@ -1,0 +1,73 @@
+.social_login {
+  display: block;
+}
+.social_login > span,
+.social_login > button {
+  width: 100%;
+}
+
+/*.social_login span,*/
+.social_login > span button {
+  min-height: 3.7rem;
+  width: 100%;
+  color: #1a1b1c;
+  font-size: 1.14rem;
+  background: #fff;
+  font-family: "sf_ui_displayregular";
+  border: 1px solid #c8c8c8;
+  padding: 0.92rem 1.43rem;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+.social_login > button.Gplus {
+  min-height: 3.7rem;
+  box-shadow: 0rem 0rem 0rem transparent !important;
+  border: 1px solid rgba(0, 0, 0, 0.2) !important;
+  margin-top: 10px !important;
+}
+.social_login > span button.fb,
+.social_login > button.Gplus {
+  justify-content: center !important;
+  text-align: center !important;
+}
+
+/*.social_login span img,*/
+.social_login button img {
+  width: 2rem;
+  margin-right: 1.43rem;
+}
+.social_login span i {
+  font-size: 1.7rem;
+}
+.social_login .fb:hover {
+  background: #3b5999;
+  border: 1px solid #3b5999;
+  color: #fff;
+}
+.social_login .Gplus:hover {
+  background: #d01818 !important;
+  color: #fff !important;
+  border: 1px solid #d01818 !important;
+}
+.no_accout {
+  border-top: 1px solid #dcdedd;
+  padding-top: 1.07rem;
+  margin-top: 1.71rem;
+}
+
+.formError {
+  border-color: #d01818 !important;
+}
+.formError + span {
+  color: #d01818 !important;
+  font-size: 1rem;
+}
+
+/* media css */
+@media (min-width: 576px) {
+  .login_sign_popup_sec .modal-lg {
+    max-width: 500px;
+  }
+}

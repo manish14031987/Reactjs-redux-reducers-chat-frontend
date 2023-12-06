@@ -1,0 +1,20 @@
+.date-pick {
+  display: block;
+  /* width: 100%; */
+  /* padding: 0.375rem 0.75rem; */
+  padding: 0.1rem 0.5rem;
+  font-size: 1rem;
+  line-height: 2.4;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  outline: #5e72e4;
+}
+/* #5E72E4 */
+
+.date-pick:focus {
+  border: 2px solid #5e72e4;
+}
