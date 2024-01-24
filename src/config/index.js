@@ -1,5 +1,5 @@
 let config = {
-  FACEBOOK_CLIENT_ID: "659002212140896",
+  FACEBOOK_CLIENT_ID: "659002212140832",
   GOOGLE_CLIENT_ID:
     "2353192037182-e1p9nq2e4dq87aj6u3cbo8mptr7d82tk.apps.googleusercontent.com",
   Geocode_KEY: "AtyuiSyAk8XubcqX5qaLo2e1KznSrlunnHpHnKqU",
